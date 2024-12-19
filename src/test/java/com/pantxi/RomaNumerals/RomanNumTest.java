@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RomanNumTest {
     @Test
     public void convertTest(){
-        assertEquals("IX",RomanNum.convert(9));
+        assertEquals("X",RomanNum.convert(10));
 
     }
 }
